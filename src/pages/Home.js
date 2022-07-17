@@ -1,5 +1,7 @@
 import React from 'react'
 import Concept from '../components/Concept'
+import Footer from '../components/Footer'
+import Info from '../components/Info'
 import Inspiration from '../components/Inspiration'
 import Layout from '../components/Layout'
 import Packaging from '../components/Packaging'
@@ -11,6 +13,8 @@ const Home = () => {
       <Inspiration/>
       <Concept /> 
       <Packaging /> 
+      <Info />
+      <Footer />
     </div>
   )
 }

@@ -1,0 +1,148 @@
+.Inspiration {
+    position: relative;
+    width: 100%;
+    height: 95vh;
+    background-color: antiquewhite;
+    display: flex;
+    flex-direction: row;
+    border-bottom: 2px solid rgb(236, 179, 144);
+}
+
+.farafra {
+    position: relative;
+    width:25%;
+    height: 70vh;
+    left: 20%;
+    top: 15%;
+    border: 1px solid black;
+    box-shadow: 0 0 6px black;
+    justify-content: center;
+    border-width: 5px 3px 3px 5px;
+    border-radius:95% 4% 97% 5%/4% 94% 3% 95%;
+    transform: rotate(2deg);
+}
+
+.farafra img {
+    position: relative;
+    height: 70vh;
+    width: 100%;
+
+
+  --b: 10px; /* control the size */
+  padding: var(--b);
+  outline-offset: calc(-1*var(--b));
+}
+
+.text {
+    position: relative;
+    width: 40%;
+    left: 20%;
+    height: 80%;
+    top: 10%;
+}
+
+.text h1 {
+    font-family: Franklin Gothic Medium;
+    font-size: 60px;
+    padding: 10px;
+
+    color: rgb(123, 158, 135);
+    text-align: left;
+    padding: 5%;
+
+    margin-top: 5%;
+}
+
+.text p {
+    font-family: Goudy Old Style;
+    font-size: 20px;
+    font-weight: 100;
+    text-align: center;
+
+    position: relative;
+    left: 10%;
+    width: 80%;
+}
+
+.text h2 {
+    font-weight: 600;
+    text-align: center;
+    color: rgb(123, 158, 135);
+
+    position: relative;
+    left: 15%;
+    width: 70%;
+}
+
+.text ul{
+    display: inline-flex;
+    flex-direction: row;
+    gap: 20px;
+    padding-top: 20px;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    justify-content: center;
+    left:25%;
+}
+
+.dum {
+    position: relative;
+    width: 70%;
+    left: 30%;
+    border-bottom: 1px solid black;
+    border-right: 1px solid black;
+    height: 1vh;
+}
+
+@media screen and (max-width:500px) {
+    .Inspiration {
+        display: block;
+    }
+
+    .text h1{
+        font-size: 30px;
+    }
+
+    .text p {
+        font-size: 12px;
+    }
+    
+    .text h2 {
+        font-size: 20px;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    .text .dum{
+        border: none;
+        height: 0;
+    }
+    .farafra {
+        width: 70%;
+        left:15%;
+        height: 60vh;
+        top: -20px;
+    }
+
+    .farafra img {
+        width: 90%;
+        left:5%;
+        height: 60vh;
+    }
+
+    .Inspiration {
+        height: 150vh;
+        margin: 0;
+        padding: 0;
+    }
+
+    .text {
+        height: 60%;
+        width: 60%;
+    }
+
+    .text ul{
+        left:0;
+    }
+}
