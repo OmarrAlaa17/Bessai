@@ -34,12 +34,13 @@ const Packaging = () => {
                     <p>Wood</p>
                     <p>Metal</p>
                     </div>
+                    <div className={classes.fourth}>
+                    <a href="/Shop" className={classes.btn}>
+                        <p>Order now</p>
+                    </a>
+                    </div>
                 </div>
                     
-                <a href="/Shop" className={classes.btn}>
-                        <p>Order now</p>
-                        <KeyboardDoubleArrowRightIcon className={classes.arr} sx={{fontSize:'30px'}}/>
-                    </a>
                 </div>
         </div>
     );

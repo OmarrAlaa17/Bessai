@@ -98,31 +98,36 @@
 @media screen and (max-width:500px) {
     .Inspiration {
         display: block;
+        height: 120vh;
     }
 
+    .text{
+        position: relative;
+        width: 90%;
+        left: 5%;
+        height: fit-content;
+        top: -2%;
+    }
     .text h1{
         font-size: 30px;
+        text-align: center;
     }
 
     .text p {
-        font-size: 12px;
+        font-size: 15px;
     }
     
     .text h2 {
         font-size: 20px;
-        padding-top: 20px;
+        padding-top: 10px;
         text-align: center;
     }
 
-    .text .dum{
-        border: none;
-        height: 0;
-    }
     .farafra {
         width: 70%;
         left:15%;
         height: 60vh;
-        top: -20px;
+        top: 2%;
     }
 
     .farafra img {
@@ -131,18 +136,5 @@
         height: 60vh;
     }
 
-    .Inspiration {
-        height: 150vh;
-        margin: 0;
-        padding: 0;
-    }
 
-    .text {
-        height: 60%;
-        width: 60%;
-    }
-
-    .text ul{
-        left:0;
-    }
 }
