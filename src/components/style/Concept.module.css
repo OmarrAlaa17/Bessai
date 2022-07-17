@@ -1,0 +1,88 @@
+.Concept {
+    position: relative;
+    width: 100%;
+    height: 90vh;
+    display: flex;
+    background-color: #CFD2CF;
+    border-bottom: 2px solid rgb(236, 179, 144);
+}
+
+.Slider {
+    position: relative;
+    width:50%;
+    padding: 2.5%;
+}
+
+.text {
+    width: 50%;
+    margin: 5%;
+    background-color: #FCF8E8;
+}
+
+.text h1 {
+    text-align: center;
+    font-family: Franklin Gothic Medium;
+    font-size: 60px;
+    padding-top: 5%;
+    color: rgb(148, 180, 159);
+}
+
+.text h2 {
+    padding-left: 8%;
+    padding-right: 8%;
+    text-align: center;
+    line-height: 30px;
+    font-family: Goudy Old Style;
+}
+
+
+.text .uses {
+    display: flex;
+    flex-direction: row;
+    gap:20px;
+    justify-content: center;
+    padding-top: 30px;
+}
+
+.text .uses div{
+    width: 25%;
+    height: 20vh;
+    padding: 5px;
+    border: 1px solid black;
+}
+.text .uses p{
+    font-family:  Franklin Gothic Medium;
+    font-size: 20px;
+    font-weight: 500;
+    position: relative;
+    text-align: center;
+    display: inline-block;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    color: #5b625b;
+}
+
+@media screen and (max-width:500px) {
+    .Concept{
+        flex-direction: column-reverse;
+        height: 150vh;
+    }
+
+    .text{
+        width: 90%;
+        left:5%;
+        margin: 4%;
+    }
+
+    .text .uses div{
+        position: relative;
+        height: 15vh;
+        top: -2%;
+    }
+
+    .Slider{
+        width: 90%;
+        left: 5%;
+    }
+}
