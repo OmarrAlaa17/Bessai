@@ -67,6 +67,7 @@
     .Concept{
         flex-direction: column-reverse;
         height: 150vh;
+        top: -10%;
     }
 
     .text{
@@ -79,6 +80,10 @@
         position: relative;
         height: 15vh;
         top: -2%;
+    }
+
+    .text .uses {
+        padding-bottom: 5%;
     }
 
     .Slider{
