@@ -114,16 +114,15 @@
         height: 0;
     }
     .farafra {
-        width: 45vh;
+        width: 60%;
+        left:20%;
         height: 60vh;
         top: -70px;
-        left: 15%;
     }
 
     .farafra img {
         width: 40vh;
         height: 60vh;
-        left: 5%;
     }
 
     .Inspiration {
