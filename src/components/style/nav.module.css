@@ -14,12 +14,11 @@
     height: 1.5rem;
     box-shadow: 0 1rem 0.5rem rgba(0, 0, 0, 0.349);
     z-index: 9;
-    justify-content: center
+    justify-content: center;
+    visibility: hidden;
 }
 .navOptions ul li {
     display: inline-block;
-    margin-left: 3rem;
-    padding: 1rem 0;
 }
 
 .navOptions ul li a {
@@ -46,11 +45,18 @@
 .navOptions ul li a:hover {
     border: solid 2px rgba(31, 34, 35, 0.7);
    border-radius: 15px;
+}
 
+.facebook{
+    visibility: hidden;
 }
 @media screen and (max-width: 1300px) {
     .nav {
         padding: 5rem 6%;
+        visibility: visible;
+    }
+    .facebook{
+        visibility: show;
     }
 }
 
@@ -91,7 +97,13 @@
    .links {
     padding-top: 10vh;
    }
- 
+   .facebook{
+    visibility: visible;
+    }
+
+    .nav {
+        visibility: visible;
+    }
     
 }
 @media screen and (max-width: 500px) {
@@ -102,5 +114,9 @@
     .nav {
         padding: 4rem 4%;
         justify-content: left;
+        visibility: visible;
+    }
+    .facebook{
+        visibility:visible;
     }
 }

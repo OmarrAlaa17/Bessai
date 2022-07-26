@@ -6,7 +6,7 @@ import PlaceIcon from '@mui/icons-material/Place';
 
 const Footer = () => {
     return(
-        <div className={classes.footer}>
+        <div id="inf" className={classes.footer}>
             <ul>
                 <li>
                     <PhoneIcon sx={{fontSize:'30px'}}/>

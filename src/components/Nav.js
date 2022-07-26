@@ -5,6 +5,7 @@ import { NavLink } from 'react-router-dom'
 import MenuIcon from '@mui/icons-material/Menu';
 import ClearIcon from '@mui/icons-material/Clear';
 import { useSelector} from 'react-redux'
+import FacebookIcon from '@mui/icons-material/Facebook'
 
 const Nav = () => {
     const [active,setActive] = useState("sleepOptions")
@@ -38,10 +39,9 @@ const Nav = () => {
                 <NavLink to="/" exact activeClassName={classes.activeLink}> Home </NavLink>
                 </li>
                 <li>
-                <NavLink to="/Shop" activeClassName={classes.activeLink}> Shop </NavLink>
-                </li>
-                <li>
-                <NavLink to="/Shop" activeClassName={classes.activeLink}> About </NavLink>
+                <a href="https://www.facebook.com/robafouad" activeClassName={classes.activeLink}> 
+                    <FacebookIcon sx={{fontSize:"20px"}} className={classes.facebook}/>
+                </a>
                 </li>
             </ul>
             </div>

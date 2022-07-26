@@ -35,8 +35,8 @@ const Packaging = () => {
                     <p>Metal</p>
                     </div>
                     <div className={classes.fourth}>
-                        <a href="/Shop" className={classes.btn}>
-                            <p>Order now</p>
+                        <a href='#inf' className={classes.btn}>
+                            <p>Contact Us!</p>
                         </a>
                     </div>
                 </div>

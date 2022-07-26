@@ -93,9 +93,11 @@
 }
 
 .btn {
-    color: black;
-    background-color: transparent;
-    border:1px solid #5b625b;
+    color: #F0EBE3;
+    background-color: #5b625b;
+    box-shadow: 0 0 5px black,
+                0 0 10px black;
+    border:1px solid black;
     position: relative;
     left:50%;
     top: 50%;
@@ -106,10 +108,10 @@
 }
 
 .btn:hover {
-    color: #F0EBE3;
-    background-color: #5b625b;
-    box-shadow: 0 0 5px black,
-                0 0 20px black;
+    border: 3px solid black;;
+    color: black;
+    font-weight: 600;
+    background-color: #e2e2e2;
 }
 
 .btn p{
@@ -135,7 +137,7 @@ a:active { text-decoration: none; }
 @media screen and (max-width:500px) {
     .Packaging{
         flex-direction: column;
-        height: 210vh;
+        height: 220vh;
     }
     .Organize{
         display: flex;
@@ -144,6 +146,10 @@ a:active { text-decoration: none; }
 
     .Packaging{
         width: 100%;
+    }
+
+    .Packaging h1{
+        margin-bottom: 20px;
     }
 
     .Packaging .uses {
@@ -160,6 +166,22 @@ a:active { text-decoration: none; }
 
     .first {
         height: 50vh;
+        border: none;
+        border: 0.5px solid rgba(0, 0, 0, 0.158);
+    }
+
+    .second {
+        height: 50vh;
+        border: none;
+        border: 0.5px solid rgba(0, 0, 0, 0.158);
+    }
+
+    .first h2 {
+        margin-top: 10px;
+    }
+
+    .second h2 {
+        margin-top: 10px;
     }
 
     .Packaging .uses div{
@@ -168,13 +190,15 @@ a:active { text-decoration: none; }
 
     .fourth a{
         position: relative;
-        top:-20%;
+        top: 14%;
     }
 
     .third{
         position: relative;
-        top:-40%;
+        height: 20vh;
+    }
 
-        height: fit-content;
+    .third h2 {
+        margin-top: 40px;
     }
 }

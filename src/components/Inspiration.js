@@ -22,8 +22,7 @@ const Inspiration = () => {
                     <img src={img3} />
                 </li>
             </ul>
-        <div className={classes.dum}/>   
-        </div>
+        <div className={classes.dum}/></div>
         <div className={classes.farafra}>
             <img src={farafraimg}/>
         </div>

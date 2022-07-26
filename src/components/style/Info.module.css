@@ -44,13 +44,14 @@
 .text h1 {
     font-family: Franklin Gothic Medium;
     font-size: 60px;
-    padding: 10px;
 
     color: rgb(123, 158, 135);
     text-align: left;
-    padding: 5%;
+    padding-top: 5%;
+    padding-bottom: 5%;
 
     margin-top: 5%;
+    text-align: center;
 }
 
 .text p {
@@ -109,7 +110,8 @@
         top: -2%;
     }
     .text h1{
-        font-size: 30px;
+        margin-top: 30px;
+        font-size: 40px;
         text-align: center;
     }
 
@@ -131,10 +133,7 @@
     }
 
     .farafra img {
-        width: 90%;
-        left:5%;
+        width: 100%;
         height: 50vh;
     }
-
-
 }
