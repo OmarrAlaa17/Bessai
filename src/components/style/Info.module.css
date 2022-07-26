@@ -117,7 +117,7 @@
 
     .text p {
         font-size: 15px;
-        font-weight: 450;
+        font-weight: 200;
     }
     
     .text h2 {
@@ -125,7 +125,7 @@
         padding-top: 10px;
         text-align: center;
         width: 80%;
-        left: 10%;
+        left: 10%;margin-bottom: 10px;
     }
 
     .farafra {
