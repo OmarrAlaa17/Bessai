@@ -93,8 +93,12 @@
 @media screen and (max-width:500px) {
     .Inspiration {
         display: block;
+        height: 400vh;
     }
 
+    .text {
+        top:0;
+    }
     .text h1{
         position: relative;
         width: 100%;

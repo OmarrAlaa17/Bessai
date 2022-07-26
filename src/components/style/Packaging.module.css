@@ -137,7 +137,7 @@ a:active { text-decoration: none; }
 @media screen and (max-width:500px) {
     .Packaging{
         flex-direction: column;
-        height: 220vh;
+        height: 200vh;
     }
     .Organize{
         display: flex;
@@ -200,5 +200,9 @@ a:active { text-decoration: none; }
 
     .third h2 {
         margin-top: 40px;
+    }
+
+    .p {
+        height: 40vh;
     }
 }

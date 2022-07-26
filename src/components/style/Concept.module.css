@@ -66,8 +66,8 @@
 @media screen and (max-width:500px) {
     .Concept{
         flex-direction: column-reverse;
-        height: 150vh;
-        top: -20%;
+        height: 140vh;
+        top: 0;
     }
 
     .text{

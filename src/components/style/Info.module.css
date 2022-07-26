@@ -117,6 +117,7 @@
 
     .text p {
         font-size: 15px;
+        font-weight: 520;
     }
     
     .text h2 {
@@ -126,8 +127,8 @@
     }
 
     .farafra {
-        width: 65%;
-        left:17.5%;
+        width: 80%;
+        left:10%;
         height: 50vh;
         top: 2%;
     }
